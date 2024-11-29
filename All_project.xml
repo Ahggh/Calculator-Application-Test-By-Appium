@@ -1,0 +1,14 @@
+<suite name="CalculatorApp">
+    <test name="calculator_page">
+        <parameter name="UDID" value="pn8tnfhy9lemorug"/>
+        <parameter name="DeviceName" value="Redmi 12C"/>
+        <parameter name="Platform" value="14 UP1A.231005.007"/>
+        <parameter name="APP_Package" value="com.miui.calculator"/>
+        <parameter name="App_Activity_Calculator" value="com.miui.calculator.cal.CalculatorActivity"/>
+        <parameter name="Automator_Name" value="uiAutomator2"/>
+        <parameter name="Remote_Access" value="http://127.0.0.1:4723/"/>
+        <classes>
+            <class name="Test_Cal_Page"/>
+        </classes>
+    </test>
+</suite>
